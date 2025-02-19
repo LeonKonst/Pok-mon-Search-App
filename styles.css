@@ -52,8 +52,8 @@ h1 {
 }
 
 #head {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: left;
   gap: 10px;
@@ -61,10 +61,17 @@ h1 {
   width:280px;
 }
 
+#pokemon-id{
+  width:70px;
+  height:25px;
+}
 
-
-#head h2, #head h3 {
-  margin: 5px 0;
+#pokemon-name{
+  position:relative;
+  top:-44px;
+  left:80px;
+  width:170px;
+  height:25px;
 }
 
 #head h2 {
@@ -79,7 +86,20 @@ h1 {
   font-size:1.1rem;
 }
 
-/* Pokemon Image */
+#weight{
+  position:absolute;
+  top:170px;
+  width:120px;
+  height:20px;
+}
+#height{
+  position:absolute;
+  top:170px;
+  left:150px;
+  width:140px;
+  height:20px;
+}
+
 #spin-image {
   width: 100px;
   height: 100px;

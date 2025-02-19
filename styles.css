@@ -1,0 +1,201 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff3e3e;
+  font-size: 2em;
+}
+
+#card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#input-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 8px;
+  border: 2px solid #ff3e3e;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 60%;
+}
+
+#search-button {
+  background-color: #ff3e3e;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#search-button:hover {
+  background-color: #e62e2e;
+}
+
+#head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+  gap: 10px;
+  height:100px;
+  width:280px;
+}
+
+
+
+#head h2, #head h3 {
+  margin: 5px 0;
+}
+
+#head h2 {
+  flex: 1 1 45%;
+  text-align: left;
+  font-size:1.2rem;
+}
+
+#head h3 {
+  flex: 1 1 25%;
+  text-align: left;
+  font-size:1.1rem;
+}
+
+/* Pokemon Image */
+#spin-image {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 129px;
+  right: 20px;
+  border: 2px solid #ddd;
+  border-radius:20px;
+}
+
+/* Types */
+#types {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  height:30px;
+}
+
+#types div {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid #ddd;
+}
+
+/* Stats Table */
+#stat-table {
+  margin-top: 20px;
+}
+
+#stat-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#stat-table th, #stat-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#stat-table th {
+  background-color: #ff3e3e;
+  color: white;
+}
+
+#stat-table td {
+  text-align: left;
+}
+
+#ghost {
+  background-color: #4c4c7d;
+  color: #e0d4f7;
+}
+
+#poison {
+  background-color: #9b69d9;
+  color: #ffffff;
+}
+
+#grass {
+  background-color: #78c850;
+  color: #ffffff;
+}
+
+#fire {
+  background-color: #f08030;
+  color: #ffffff;
+}
+
+#flying {
+  background-color: #a890f0;
+  color: #ffffff;
+}
+
+#water {
+  background-color: #6890f0;
+  color: #ffffff;
+}
+
+#bug {
+  background-color: #a8b820;
+  color: #ffffff;
+}
+
+#ground {
+  background-color: #e0c068;
+  color: #3d2c0b;
+}
+
+#normal {
+  background-color: #a8a878;
+  color: #ffffff;
+}
+
+#electric {
+  background-color: #f8d030;
+  color: #4c3a08;
+}
+
+#dark {
+  background-color: #705848;
+  color: #ffffff;
+}
+
+#fairy {
+  background-color: #ee99ac;
+  color: #ffffff;
+}
+
+#fighting {
+  background-color: #c03028;
+  color: #ffffff;
+}
+
+#psychic {
+  background-color: #f85888;
+  color: #ffffff;
+}
